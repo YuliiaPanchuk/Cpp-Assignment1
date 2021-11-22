@@ -14,7 +14,7 @@ int main()
 	double remainingTime;
 	int kilometers;
 	double result;
-	char answer;
+	char answer = 'n';
 
 	do
 	{

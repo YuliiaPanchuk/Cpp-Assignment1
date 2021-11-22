@@ -24,7 +24,7 @@ void priceCalculation();
 
 int main()
 {
-	char answer;
+	char answer = 'n';
 	do
 	{
 		priceCalculation();

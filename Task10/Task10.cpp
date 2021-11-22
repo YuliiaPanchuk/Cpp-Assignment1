@@ -1,20 +1,67 @@
-// Task10.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+// Preprocessor directives
 #include <iostream>
+#include <iomanip>
+using namespace std;
+
+// b * (1 + r / 100) * n
+// n = years; r = percent; b = amount deposited in the bank;
+// amount * (1 + PERCENT / 100) * years
+
+// Prototypes
+double Calculation();
+void UserInput();
+void PrintingCalculatedValue();
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	char answer = 'n';
+	do
+	{
+		Calculation();
+		cout << "One more time? (Y/N): ";
+		cin >> answer;
+	} while (answer == 'Y' || answer == 'y');
+	return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+ double Calculation()
+{
+	// Define and initialize constants and variables
+	const int PERCENT = 3;
+	int years;
+	int amount;
+	double finalAmount;
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
+	// Calculation
+	finalAmount = amount * (1 + PERCENT / 100) * years;
+
+}
+
+void UserInput()
+{
+	// Define and initialize variables
+	int years;
+	int amount;
+
+	// Load data from the user
+	system("CLS"); // Clear the screen
+	cout << "COMPOUND INTEREST\n";
+	cout << "==============\n\n";
+	cout << "Load initial amount: ";
+	cin >> amount;
+	cout << "Load number of years: ";
+	cin >> years;
+}
+
+
+void PrintingCalculatedValue()
+{
+	// Define and initialize constants and variables
+	const int PERCENT = 3;
+	int years = 0;
+	double finalAmount = 0;
+
+	// Display result
+	cout << "The capital with " << PERCENT << " % interest rate and after " << years << " years will be: " << finalAmount << " SEK.";
+}
