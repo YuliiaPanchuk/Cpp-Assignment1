@@ -1,0 +1,9 @@
+﻿  Task_3.cpp
+C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Assignment1\Task_3.cpp(27,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Task_4.cpp
+  Task_5.cpp
+C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Assignment1\Task_5.cpp(34,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Assignment1\Task_5.cpp(35,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Assignment1\Task_5.cpp(14,9): warning C4101: 'remainingTime': unreferenced local variable
+  Generating Code...
+C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Assignment1\Task_5.cpp(37): error C4700: uninitialized local variable 'answer' used

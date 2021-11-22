@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignment1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Task5\main.cpp(14,9): warning C4101: 'remainingTime': unreferenced local variable
+  Task5.vcxproj -> C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Debug\Task5.exe
