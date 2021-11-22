@@ -1,4 +1,2 @@
 ﻿  Task10.cpp
-C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Task10\Task10.cpp(39): error C4716: 'Calculation': must return a value
-C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Task10\Task10.cpp(37): error C4700: uninitialized local variable 'amount' used
-C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Task10\Task10.cpp(37): error C4700: uninitialized local variable 'years' used
+  Task10.vcxproj -> C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Debug\Task10.exe

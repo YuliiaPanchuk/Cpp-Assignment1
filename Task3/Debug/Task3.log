@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Task3\main.cpp(28,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Task3.vcxproj -> C:\Users\Lenovo\Documents\GitHub\cpp-assignments\Assignment1\Debug\Task3.exe

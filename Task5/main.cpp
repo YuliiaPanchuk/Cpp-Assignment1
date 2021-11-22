@@ -1,3 +1,5 @@
+// Summary: With the help of the average speed and remaining distance to run, the program calculates the remaining travel time
+
 // Preprocessor directives
 #include <iostream>
 #include <iomanip>
